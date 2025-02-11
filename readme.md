@@ -15,7 +15,7 @@ This repository aims to:
 Problems are organized by categories and difficulty levels:
 
 ```
-/leetcode
+/leetcode-training
 ├── easy/       # Easy problems
 ├── medium/     # Intermediate problems
 ├── hard/       # Hard problems
