@@ -1,5 +1,6 @@
 """
-Given two strings s and part, perform the following operation on s until all occurrences of the substring part are removed:
+Given two strings s and part, perform the following operation on s until 
+all occurrences of the substring part are removed:
 
 Find the leftmost occurrence of the substring part and remove it from s.
 Return s after removing all occurrences of part.
@@ -7,7 +8,6 @@ Return s after removing all occurrences of part.
 A substring is a contiguous sequence of characters in a string.
 
 Example 1:
-
     Input: s = "daabcbaabcbc", part = "abc"
     Output: "dab"
     Explanation: The following operations are done:
@@ -17,7 +17,6 @@ Example 1:
     Now s has no occurrences of "abc".
 
 Example 2:
-
     Input: s = "axxxxyyyyb", part = "xy"
     Output: "ab"
     Explanation: The following operations are done:
@@ -35,7 +34,7 @@ class Solution:
 
         return s
 
-        
 solution = Solution()
-print(solution.removeOccurrences("daabcbaabcbc", "abc"))
-print(solution.removeOccurrences("axxxxyyyyb", "xy"))
+
+print(solution.removeOccurrences("daabcbaabcbc", "abc")) # Expected "dab"
+print(solution.removeOccurrences("axxxxyyyyb", "xy"))    # Expected "xy"

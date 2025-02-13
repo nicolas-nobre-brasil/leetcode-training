@@ -6,10 +6,7 @@ and the sum of digits of the number nums[i] is equal to that of nums[j].
 Return the maximum value of nums[i] + nums[j] that you can obtain 
 over all possible indices i and j that satisfy the conditions.
 
- 
-
 Example 1:
-
     Input: nums = [18,43,36,13,7]
     Output: 54
     Explanation: The pairs (i, j) that satisfy the conditions are:
@@ -18,7 +15,6 @@ Example 1:
     So the maximum sum that we can obtain is 54.
 
 Example 2:
-
     Input: nums = [10,12,19,14]
     Output: -1
     Explanation: There are no two numbers that satisfy the conditions, so we return -1.
@@ -48,5 +44,6 @@ class Solution:
         return maximum_sum
 
 solution = Solution()
-print(solution.maximumSum([18,43,36,13,7]))
-print(solution.maximumSum([10,12,19,14]))
+
+print(solution.maximumSum([18,43,36,13,7])) # Expected 54
+print(solution.maximumSum([10,12,19,14]))   # Expected -1
